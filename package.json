@@ -1,0 +1,27 @@
+{
+    "name": "react-router-history-pro",
+    "version": "0.0.1",
+    "description": "react-router alternative with extra functionality (blocking, full history control) with HistoryPro",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "npx tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "repository": "https://github.com/Martoxdlol/react-router-history-pro",
+    "author": "Tomás Cichero",
+    "license": "ISC",
+    "peerDependencies": {
+        "react-router": "^6.3.0",
+        "history-pro": "^0.0.4",
+        "react": ">=16.8"
+    },
+    "devDependencies": {
+        "typescript": "^4.6.3"
+    },
+    "dependencies": {
+        "@types/node": "^16.11.27",
+        "@types/react": "^18.0.6",
+        "@types/react-dom": "^18.0.1"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "react-router-history-pro-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx parcel index.html"
+  },
+  "author": "Tomás Cichero <martoxdlol@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "parcel": "^2.5.0"
+  },
+  "dependencies": {
+    "history-pro": "^0.0.4",
+    "react": "file:../node_modules/react",
+    "react-dom": "^18.0.0",
+    "react-router-history-pro": "file:.."
+  }
+}

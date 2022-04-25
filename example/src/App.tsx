@@ -1,6 +1,6 @@
 import React from "react";
 import HistoryPro from "history-pro";
-import createHistory, { ReactRouterNavigator } from "history-pro/react";
+
 import {
   HistoryProRouter,
   Link,
@@ -33,10 +33,6 @@ if (!window.historyPro) {
 }
 
 const historyPro = window.historyPro;
-
-const reactNavigator: ReactRouterNavigator = createHistory(historyPro);
-
-console.log(reactNavigator);
 
 function HOME() {
   const navigate = useNavigate();

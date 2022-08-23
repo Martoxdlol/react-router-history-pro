@@ -154,9 +154,9 @@ type HistoryProRouterState = {
 const Context = React.createContext<HistoryProRouterContext>({} as HistoryProRouterContext);
 export { Context as historyProRouterContext }
 
-export function HistoryProRouter({ basename, children, history }: HistoryRouterProps) {    
+export function HistoryProRouter({ basename, children, history }: HistoryRouterProps) {
     const navigator: ReactRouterNavigator = React.useMemo(() => createHistory(history), [history])
-    
+
     const [state, setState] = React.useState<HistoryProRouterState>({
         action: NavigationType.Pop,
         location: navigator.location,
@@ -167,7 +167,6 @@ export function HistoryProRouter({ basename, children, history }: HistoryRouterP
     return (
         <Context.Provider value={{ history, event: state.event, basename, location: state.location }}>
             <Router
-                key={state.location.key}
                 basename={basename}
                 children={children}
                 location={state.location}

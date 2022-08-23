@@ -100,9 +100,10 @@ function P2() {
       <p>useParams(): {JSON.stringify(useParams())}</p>
       <p>useResolvedPath(): {JSON.stringify(useResolvedPath("x"))}</p>
       <p>useSearchParams(): {JSON.stringify(useSearchParams())}</p>
-      <Link to="/x/d">ir a: /x/d</Link>
-      <Link to="/">ir a: /</Link>
-      <a
+      <Link to="/x/d"><p>ir a: /x/d</p></Link>
+      <Link to="/"><p>ir a: /</p></Link>
+      <Link to="/2"><p>Re pushear: /2</p></Link>
+      <button type="button"
         onClick={() => {
           block(
             (e, stopBlocking) => {
@@ -114,7 +115,9 @@ function P2() {
         }}
       >
         Block
-      </a>
+      </button>
+      <br/>
+      <input defaultValue={"No state"}/>
     </div>
   );
 }

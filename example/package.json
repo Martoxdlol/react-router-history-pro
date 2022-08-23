@@ -10,7 +10,8 @@
   "author": "Tomás Cichero <martoxdlol@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "parcel": "^2.5.0"
+    "parcel": "^2.5.0",
+    "process": "^0.11.10"
   },
   "dependencies": {
     "history-pro": "^0.0.4",

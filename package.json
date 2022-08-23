@@ -1,6 +1,6 @@
 {
     "name": "react-router-history-pro",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "react-router alternative with extra functionality (blocking, full history control) with HistoryPro",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",

@@ -103,6 +103,8 @@ function P2() {
       <Link to="/x/d"><p>ir a: /x/d</p></Link>
       <Link to="/"><p>ir a: /</p></Link>
       <Link to="/2"><p>Re pushear: /2</p></Link>
+      <Link to="/2?a=1"><p>Re pushear: /2?a=1</p></Link>
+      <Link to="/2?a=2"><p>Re pushear: /2?a=2</p></Link>
       <button type="button"
         onClick={() => {
           block(
